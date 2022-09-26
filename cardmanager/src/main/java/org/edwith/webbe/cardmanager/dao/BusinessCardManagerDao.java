@@ -13,15 +13,15 @@ public class BusinessCardManagerDao {
 	private static String dbUser = "root"; //cardmanageruser
 	private static String dbpasswd = "1111"; //1111
 	
-    public List<BusinessCard> searchBusinessCard(String keyword){
-    	try {
-			Class.forName("com.mysql.jdbc.Driver");
-		} catch (ClassNotFoundException e) {
-			e.printStackTrace();
-		}
-    	
-    	String sql = "SELECT " //SELECT DATE_FORMAT(CREATE_DTE, '%a %b %d ') FROM TB_CARDMANAGER;
-    }
+//    public List<BusinessCard> searchBusinessCard(String keyword){
+//    	try {
+//			Class.forName("com.mysql.jdbc.Driver");
+//		} catch (ClassNotFoundException e) {
+//			e.printStackTrace();
+//		}
+//    	
+//    	String sql = "SELECT " //SELECT DATE_FORMAT(CREATE_DTE, '%a %b %d ') FROM TB_CARDMANAGER;
+//    }
 
     public void addBusinessCard(BusinessCard businessCard){
     	
